@@ -11,11 +11,11 @@ This project presents a PDF Question Answering application using advanced NLP mo
 ![Streamlit UI](img/streamlit_ui.png)
 
 ## Context Control implementation
-    In addition to the core functionalities, this project implements an advanced context control mechanism for Language Large Models (LLMs) using a threshold based on Sentence Transformers. This feature enhances the relevance and accuracy of responses by ensuring that the LLMs only process and respond to contextually appropriate content. 
-    
-    To achieve this, a semantic similarity threshold is calculated, beyond which the LLM is engaged for generating responses. This method is critical in filtering out irrelevant content and focusing on the most pertinent information within the documents. 
-    
-    Furthermore, the project also explored other sophisticated methods for text processing and feature extraction, such as autoencoders and BERT (Bidirectional Encoder Representations from Transformers)for sentence similarity measurement. 
+In addition to the core functionalities, this project implements an advanced context control mechanism for Language Large Models (LLMs) using a threshold based on Sentence Transformers. This feature enhances the relevance and accuracy of responses by ensuring that the LLMs only process and respond to contextually appropriate content. 
+
+To achieve this, a semantic similarity threshold is calculated, beyond which the LLM is engaged for generating responses. This method is critical in filtering out irrelevant content and focusing on the most pertinent information within the documents. 
+
+Furthermore, the project also explored other sophisticated methods for text processing and feature extraction, such as autoencoders and BERT (Bidirectional Encoder Representations from Transformers)for sentence similarity measurement. 
 
 ## Embeddings and Language Models Used
 
